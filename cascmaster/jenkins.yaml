@@ -63,7 +63,7 @@ unclassified:
     charset: "UTF-8"
     debugMode: false
     defaultBody: |-
-      $PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:
+      $PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS - test body:
 
       Check console output at $BUILD_URL to view the results.
     defaultSubject: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!"
@@ -75,14 +75,14 @@ unclassified:
   gitHubConfiguration:
     apiRateLimitChecker: ThrottleForNormalize
   gitHubPluginConfig:
-    hookUrl: "http://awscore.sfolkes.pscbdemos.com/teams-cascmaster/github-webhook/"
+    hookUrl: "http://awscore.sfolkes.pscbdemos.com/cascmaster/github-webhook/"
   gitSCM:
     createAccountBasedOnEmail: false
     showEntireCommitSummaryInChanges: false
     useExistingAccountWithSameEmail: false
   location:
     adminAddress: "address not configured yet <nobody@nowhere>"
-    url: "http://awscore.sfolkes.pscbdemos.com/teams-cascmaster/"
+    url: "http://awscore.sfolkes.pscbdemos.com/cascmaster/"
   mailer:
     charset: "UTF-8"
     useSsl: false
