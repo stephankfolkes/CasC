@@ -135,4 +135,4 @@ plugins:
 - id: "workflow-aggregator"
 - id: "workflow-cps-checkpoint"
 - id: "configuration-as-code"
-- id: "datadog"
+- id: "active-directory"
